@@ -12,3 +12,7 @@ function returnName(name) {
 }
 ;
 console.log(returnName(person));
+animals.forEach(function (animal) {
+    var result = returnName(animal);
+    console.log(result);
+});

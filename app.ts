@@ -23,3 +23,8 @@ function returnName(name: string): string{
 };
 
 console.log(returnName(person));
+
+animals.forEach(animal => {
+    const result = returnName(animal);
+    console.log(result);
+});
