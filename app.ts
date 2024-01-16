@@ -15,3 +15,11 @@ const randomObj: RandomObjType = {
 };
 
 console.log(randomObj);
+
+const person: string = 'Robin'
+
+function returnName(name: string): string{
+    return `hello ${name}`
+};
+
+console.log(returnName(person));

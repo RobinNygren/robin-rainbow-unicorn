@@ -6,3 +6,9 @@ var randomObj = {
     bool: false
 };
 console.log(randomObj);
+var person = 'Robin';
+function returnName(name) {
+    return "hello ".concat(name);
+}
+;
+console.log(returnName(person));
